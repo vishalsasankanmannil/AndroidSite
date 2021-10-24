@@ -52,7 +52,13 @@
         width: '640',
         videoId: 'PNR06O9sSio',
         playerVars: {
-          'playsinline': 1,
+          'autoplay': 1,
+        'controls': 0, 
+        'autohide': 1,
+        'showinfo' : 0, // <- This part here
+        'wmode': 'opaque',
+        'rel': 0,
+        'loop': 1,'modestbranding':1
         },
         events: {
           'onReady': onPlayerReady,
